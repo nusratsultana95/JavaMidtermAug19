@@ -1,0 +1,51 @@
+What is compile time and run time?
+ans:Compile-time is the instance where the code you entered is converted to
+executable,while Run-time is the instance where the executable is running.
+
+What is heap?
+ans:The heap is the runtime data area from which memory for all class instances
+ and arrays is allocated.
+
+How java manage it's memory?
+ans:The JVM loads the code, verifies the code, executes the code, manages memory
+and finally provides the runtime environment.
+
+What is the difference between String, StringBuffer and StringBuilder?
+ans:String is immutable whereas StringBuffer and StringBuider are mutable classes.
+
+What is Singleton class?
+ans: Singleton class is a class where you have only one object.
+
+What is Serialization and Deserialization?
+ans:Serialization is a mechanism of converting the state of an object into a byte stream.
+Deserialization is the reverse process where the byte stream is used to recreate the actual Java object in memory.
+
+Which one will take more memory, an int or Integer?
+ans: Integer
+
+Why is String Immutable in Java?
+ans:The string is Immutable in Java because String objects are cached in String pool.
+
+What is constructor chaining in Java?
+ans:Constructor chaining is the process of calling one constructor
+from another constructor with respect to current object
+
+The difference between Serial and Parallel Garbage Collector?
+ans:Both the serial and parallel collectors cause a stop-the-world during
+the GC. a serialcollector is a default copying collector which uses only one
+ GC thread for the GC operation, while a parallel collector uses multiple GC threads for the GC operation.
+
+What is JIT stands for?
+ans: just in time compilation
+
+Explain Java Heap space and Garbage collection?
+ans:Java objects reside in an area called the heap. The heap is created
+when the JVM starts up and may increase or decrease in size while the
+ application runs. When the heap becomes full, garbage is collected. During the garbage collection
+objects that are no longer used are cleared, thus making space for new objects.
+
+Can you guarantee the garbage collection process?
+ans:no
+What is the difference between stack and heap in Java?
+ans:The main difference between heap and stack is that stack memory is used to store local
+variables and function call while heap memory is used to store objects in Java
